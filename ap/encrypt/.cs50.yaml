@@ -1,7 +1,5 @@
-# check50 drichardi/problems/main/ap/encrypt
-
+# submit50 drichardi/problems/main/ap/encrypt
 submit50:
   files:
-    - !include "encrypt.c"
-    - !exclude "encrypt"
-    - !exclude "*.txt"
+    - !exclude *
+    - !require "encrypt.c"
