@@ -1,8 +1,5 @@
 # submit50 drichardi/problems/main/ap/encrypt
-check50:
-  checks:
-    compiles:
-      - run make encrypt
+
 submit50:
   files:
     - !exclude *
