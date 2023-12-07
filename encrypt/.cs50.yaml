@@ -2,5 +2,6 @@
 
 submit50:
   files:
-    - !exclude *
-    - !require "encrypt.c"
+    - !include "encrypt.c"
+    - !exclude "encrypt"
+    - !exclude "*.txt"
