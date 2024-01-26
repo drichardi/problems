@@ -1,0 +1,6 @@
+# submit50 drichardi/problems/main/binarytotext
+
+submit50:
+  files:
+    - !exclude "*"
+    - !require "binarytotext.py"
