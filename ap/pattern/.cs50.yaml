@@ -2,5 +2,5 @@
 
 submit50:
   files:
-    - !exclude *
-    - !require "pattern.c"
+    - "!exclude *"
+    - "!require pattern.c"
