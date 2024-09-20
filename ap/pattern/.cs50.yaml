@@ -1,3 +1,10 @@
+check50:
+  checks:
+    pattern:
+      - run: ./pattern
+        exit: 0
+
 submit50:
   files:
-    - "pattern.c"
+    - !include "pattern.c"
+    - !exclude "pattern"
