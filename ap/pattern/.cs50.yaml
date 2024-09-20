@@ -7,7 +7,7 @@ check50:
 submit50:
   files:
     - !exclude "*"
-    - !exclude "*/*"
+    - !exclude "*.o"
     - !exclude "*.c"
     - !include "pattern.c"
     
