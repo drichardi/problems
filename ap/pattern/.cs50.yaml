@@ -1,6 +1,4 @@
-# submit50 drichardi/problems/main/ap/pattern
-
 submit50:
   files:
-    - "pattern.c"
-    
+    - "!exclude *"
+    - "!require pattern.c"
