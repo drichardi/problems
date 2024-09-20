@@ -6,6 +6,7 @@ check50:
 
 submit50:
   files:
-    - !exclude "*"
+    - !exclude "*.*"
+    - !exclude "*.c"
     - !include "pattern.c"
     
