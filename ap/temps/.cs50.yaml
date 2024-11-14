@@ -1,0 +1,11 @@
+# drichardi/problems/ap/main/temps
+
+check50:
+  checks:
+    area:
+      - run: ./temps
+
+submit50:
+  files:
+    - !include "temps.c"
+    - !exclude "temps"
