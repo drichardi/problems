@@ -8,4 +8,4 @@ check50:
 submit50:
   files:
     - !include "temps.c"
-    - !exclude "temps"
+   
