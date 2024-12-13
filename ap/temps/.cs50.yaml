@@ -2,8 +2,6 @@
 
 check50:
   checks:
-    area:
-      - run: ./temps
 
 submit50:
   files:
