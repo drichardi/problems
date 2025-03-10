@@ -8,4 +8,4 @@ submit50:
     - !exclude "*.o"
     - !exclude "*.c"
     - !exclude "*.txt"
-    - !include "sentiments.py"
+    - !include "*.py"
