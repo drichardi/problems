@@ -1,0 +1,11 @@
+check50:
+  checks:
+    sentiments:
+
+submit50:
+  files:
+    - !exclude "*"
+    - !exclude "*.o"
+    - !exclude "*.c"
+    - !exclude "*.txt"
+    - !include "sentiments.py"
